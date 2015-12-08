@@ -63,6 +63,19 @@ struct Graph<T> {
     
 }
 
+//struct GraphArcs<CostType: Comparable> {
+//    private var arcs: [[CostType]]
+//    
+//    init(arcs: [[CostType]]) {
+//        self.arcs = arcs
+//    }
+//    
+//    func miniSpanTree() {
+//        var closeEdge = [(vertex:Int, lowcost:CostType)]().reserveCapacity(self.arcs.count)
+//        
+//    }
+//}
+
 
 
 let datas = [0,1,2,3,4,5,6,7]
